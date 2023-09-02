@@ -26,4 +26,46 @@
     width: 200px;
     height:200px;
  }
- 
+
+ .navbar {
+  border: 1px black dashed;
+  display: flex;
+  justify-content: center;
+ }
+
+ .nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 800px;
+ }
+/*****************/ 
+/* BODY */
+/*****************/ 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 0.8fr);
+  grid-template-rows: 0.8fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  border: 1px black solid;
+  }
+
+.grid3 {
+  display: grid;
+  grid-template-columns: repeat(3, .6fr);
+  grid-template-rows: .8fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  border: 1px black solid;
+  }
+
+
+.animal {
+  width: 450px;
+  height: 300px;
+}  
+
+p{
+  text-align: center;
+}
